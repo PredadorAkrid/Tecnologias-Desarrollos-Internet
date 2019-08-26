@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Práctica 01</title>
+	<meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />
+  <TITLE> Título</TITLE>
+
+</head>
+<body>
+  <!--Ejemplo de título -->
+	<h1 align="center">Primera práctica</h1>
+	<h2 align= "center"> La tierra y nuestro impacto a lo largo del tiempo</h2>
+  <!-- Insersión de imagen -->
+  	<div align="right" ><img src="ciencias01.png" border="1" alt="Logotipo Facultad de Ciencias UNAM" width="150" height="150"></div>
+  
+  <h3 align="center">
+    <p>¿Qué es el Antropoceno?</p>
+    <p>Es un término utilizado para designar la era geológica actual que se distingue por el papel central que desempeña la humanidad para propiciar significativos cambios geológicos. Estas transformaciones han sido provocadas por factores como la urbanización, la utilización de combustibles fósiles, la devastación de bosques, la demanda de agua o la explotación de recursos marítimos. </p>
+    <div align="center" ><img src="etapas.jpg" border="1" alt="antropoceno" width="200" height="200"></div>
+  </h3>
+  <!--Ejemplo de listas -->
+	<p align="center">Te podría interesar:</p>
+	
+  	<div id="listaNoOrdenada">
+    <ul>
+        <li><a href="http://www.wwf.org.mx/que_hacemos/cambio_climatico_y_energia/">¿Qué es el cambio climático?</a></li>
+        <li><a href="https://www.youtube.com/watch?v=zK7MLX_UhrU">Pequeña reflexión</a></li>
+        <li><a href="https://www.excelsior.com.mx/global/en-2050-el-planeta-podria-ser-inhabitable-segun-la-onu/1323478">¿Cuánto tiempo nos queda?</a></li>
+        <li><a href="https://www.playgroundmag.net/now/imagenes-satelite-revelan-impacto-Tierra_22645009.html">Imágenes</a></li>
+    </ul>
+    
+<!-- Ejemplo de buscador estático -->    
+<input type="text" name="busca" placeholder="Busca algo..."> 
+<!--Ejemplo de valoración por estrellas -->
+<h4 aling = "center">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+</h4>
+<h5 align="center">Contacto</h5>
+
+ <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">Primer nombre</label>
+    <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+
+    <label for="lname">Apellido</label>
+    <input type="text" id="lname" name="lastname" placeholder="Apellido..">
+
+    <label for="country">País</label>
+    <select id="country" name="country">
+      <option value="México">México</option>
+      <option value="Canada">Canada</option>
+      <option value="Usa">USA</option>
+    </select>
+
+    <label for="subject">Detalles</label>
+    <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div> 
+
+
+</body>
+</html>

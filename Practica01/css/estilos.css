@@ -1,0 +1,71 @@
+body{
+
+		background-image: url(../espacio01.jpg);	
+}
+h1 { color: #FFFFFF ;}
+p { 
+	/*background-color:    #3e448c;*/
+
+	border-radius: 80px / 20px;
+	color:  #FFFFFF ; 
+}
+h2 {color: #FFFFFF;}
+
+
+
+ul {
+  	list-style-type: square;	
+	background-color:  #FCFCFC;
+  	padding: 20px;
+  	border-style: ridge double  solid outset;	
+}
+
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+h3 {color: = #FFFFFF; }
+h4 { color: #FFFFFF ;}
+h5 {color: #FFFFFF}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 100%;
+}
+.checked {
+  color: orange;
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  
+}
+
+.container {
+  border-radius: 5px;
+  
+  padding: 20px;
+}
