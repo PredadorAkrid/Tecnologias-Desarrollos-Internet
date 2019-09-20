@@ -40,9 +40,11 @@ public class Practica04 extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 		String nombre = request.getParameter("nombre");
-		String patronNombre = "([A-Za-z]+)";
+		
 		String paterno = request.getParameter("paterno");
 		String email = request.getParameter("email");
+		
+		String patronNombre = "([A-Za-z]+)";
 		String patronEmail ="^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
                 + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
 		Pattern patternNombre = Pattern.compile(patronNombre);
@@ -52,8 +54,9 @@ public class Practica04 extends HttpServlet {
 		
 		Pattern patternEmail = Pattern.compile(patronEmail);
 		Matcher matcherEmail = patternEmail.matcher(email);
+		
 		PrintWriter out = response.getWriter();
-		if(nombre == null || paterno == null | email == null) {
+		if(nombre == null || paterno == null  || email == null) {
 			out.println("<html>");
 			out.println("<head><title>Practica 04</title>") ;
 			out.println("<body>");
