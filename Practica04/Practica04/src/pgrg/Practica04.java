@@ -67,8 +67,8 @@ public class Practica04 extends HttpServlet {
 							out.println("<html>");
 							out.println("<head><title>Practica 04</title>") ;
 							out.println("<body>");
-							out.println("<h1>Bienvenido"+  nombre + "</h1>");
-							out.println("<h6>Tu nombre es: " + nombre + "\nTu apellido es:" + paterno + " " + "</h6>");
+							out.println("<h1>Bienvenido "+  nombre + "</h1>");
+							out.println("<h6>Tu nombre es: " + nombre + "<br>" + "\nTu apellido es: " + paterno + " " + "</h6>");
 							out.println("<h6>Tu email es: " + email + "</h6>");
 							out.println("</body>");
 							out.println("</html>");
