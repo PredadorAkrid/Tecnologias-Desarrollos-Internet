@@ -18,7 +18,7 @@ function aceptarCookies() {
 
 function valida_envia(){
 	var nombre = document.getElementById('nombre');
-	var apellido = document.getElementById('apellido')
+	var apellido = document.getElementById('paterno')
 	var email = document.getElementById('email')
 	var regNombre = /^[a-zA-Z]+$/;
 	var regApellido = /^[a-zA-Z]+$/;

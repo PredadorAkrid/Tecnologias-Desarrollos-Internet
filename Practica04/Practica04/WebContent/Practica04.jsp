@@ -38,8 +38,9 @@
   <h3 align="center">
     <p>¿Qué es el Antropoceno?</p>
     <p>Es un término utilizado para designar la era geológica actual que se distingue por el papel central que desempeña la humanidad para propiciar significativos cambios geológicos. Estas transformaciones han sido provocadas por factores como la urbanización, la utilización de combustibles fósiles, la devastación de bosques, la demanda de agua o la explotación de recursos marítimos. </p>
-    <div align="center" ><img src="img/etapas.jpg" border="1" alt="antropoceno" width="200" height="200"></div>
   </h3>
+      <div align="center" ><img src="img/etapas.jpg" border="1" alt="antropoceno" width="200" height="200"></div>
+  
   <!--Ejemplo de listas -->
 	<p align="center">Te podría interesar:</p>
 	
@@ -52,23 +53,23 @@
     </ul>
     
     </div>
-<h4 align="center">Contacto
+   Contacto
 
 
-  <form name="fvalida" id = "formulario">
-    <input type="text" name="name" id="nombre" placeholder="Nombre"><br>
-    <input type="text" name="paterno" id="apellido" placeholder="Apellido"><br>
-    <input type="text" name="correo" id="email" placeholder="email"><br>
-    <button onclick = "valida_envia()" type="button" id = "valida_envia()" >Enviar</button><br>
-
-  </form>
+  <form id="userForm" action="add" method="post" onsubmit="valida_envia();">
+		Nombre:           <input type="text" id="nombre" name="nombre"><br>
+		Apellido Paterno: <input type="text" id="paterno" name="paterno"><br>
+		
+		Email:            <input type="text" id="email" name="email"><br>
+		
+		<input type="submit" id="Submit" name="Submit" value="Aceptar">
+	</form>
    
 
 
-</h4>
  
 <h5 align="center">
-  <button onclick = "funcionFinal()" aling = "center">Presióname</button>
+  <button onclick = "funcionFinal()" align = "center">Presióname</button>
   <div id='imagencargando'></div>
     
 </h5> 
