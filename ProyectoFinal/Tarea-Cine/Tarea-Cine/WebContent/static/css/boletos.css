@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+table{
+	border-collapse: collapse;
+	background-color: white;
+	column-gap: 2em;
+	width: 100%;
+}
+
+td{
+	border: 1px solid var(--gris);
+	text-align: center;
+}
+
+tr{
+	height: 2vw;
+}
+
+.label{
+	width: 69%;
+	border: 1px solid white;
+	background-color: var(--gris);
+	text-align: left;
+	padding-left: 1vw;
+}
+
+#mayor,#menor,#adulto{
+	width: 10%;
+}
+
+.menos, .mas{
+	width: 10%;
+	cursor: pointer;
+}
+.menos{
+	margin-left: 2vw;
+}
+
+img{
+	height: 1.5vw;
+}
+
+.blue{
+	background-color: var(--azul);
+}

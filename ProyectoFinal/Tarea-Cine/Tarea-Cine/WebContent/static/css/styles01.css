@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+@font-face {
+  font-family: Report;
+  src: url(../fonts/Report.otf);
+}
+
+body{
+	font-family: Report;
+	font-size: 1.4vw;
+}
+
+:root {
+	--rojo: #E60000;
+	--azul: #74CEE4;
+	--verde: #6FC191;
+	--amarillo: #EDBF47;
+	--gris: #d9d9d9;
+	--gris-oscuro: #B5B5B5;
+}
+
+#content{
+	width: 40%;
+}
+
+h1{
+	font-weight: normal;
+}

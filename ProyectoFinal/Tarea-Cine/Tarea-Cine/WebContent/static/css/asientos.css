@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+img{
+	width: 2.1vw;
+}
+
+table{
+	text-align: center;
+	width: 100%;
+}
+
+#pantalla{
+	background-color: #cccccc;
+	height: 2.3vw;
+}
+
+.label{
+	width: 20%;
+}
+
+.asiento{
+	cursor: pointer;
+}
+
+.ocupado{
+	cursor: auto;
+}
