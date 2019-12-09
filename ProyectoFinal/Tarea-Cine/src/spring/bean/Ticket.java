@@ -29,9 +29,10 @@ public class Ticket {
 	}
 	private int generaOrden() {
 	    Random rnd = new Random();
-	    int aux = rnd.nextInt();
-		
-		return aux;
+	    
+	    int answer = Math.abs(rnd.nextInt());
+
+		return answer;
 	}
 	public int getOrden() {
 		return this.numTicket;

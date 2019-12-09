@@ -125,8 +125,8 @@ public class Control {
 	@RequestMapping( value = "/save_asientos", method = RequestMethod.POST )
 	public ModelAndView saveAsientos(HttpServletRequest req,HttpServletResponse response, @ModelAttribute( "boleto" ) Boleto bolAux) {
 		
-		String s = req.getParameter("asientos");
-		String[] lugares = s.split(",");
+		this.asientosSinSplit = req.getParameter("asientos");
+		lugares = this.asientosSinSplit.split(",");
 		for(String aux: lugares){
 			System.out.println(aux);
 			
@@ -158,6 +158,11 @@ public class Control {
 				 ", tu compra ha sido exitosa ");
 		model.addAttribute( "nombre", ticket.getNombre());
 		model.addAttribute( "numOrden", Integer.toString(ticket.getOrden()));
+		
+		model.addAttribute( "asientos", this.asientosSinSplit);
+
+		
+		
 		System.out.println(this.bol.toString());
 		return new ModelAndView("comprobante","boleto", this.bol);
 	}
@@ -206,9 +211,9 @@ public class Control {
 	
 	
 	
-	
+	private String asientosSinSplit = "";
 	private static int precio = 0;
 	private static int numBoletos = 0;
-	
+	private String[] lugares;
 	private static Boleto bol = new Boleto();
 }

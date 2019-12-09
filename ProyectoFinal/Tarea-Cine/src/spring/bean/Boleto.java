@@ -9,6 +9,7 @@ public class Boleto {
 	private int numBoletos;
 	private String[] asientos;
 	private String horario;
+	private String sala;
 			
 	public Boleto() {
 		
@@ -46,7 +47,7 @@ public class Boleto {
 	
 	
 	public String toString() {
-		String s = fecha + " " + horario + " " + cine + " " + nombrePelicula + "  " + clasificacion +  " " + costoFinal +  " " + numBoletos + " " + asientos;
+		String s = fecha + " " + horario + " " + cine + " " + nombrePelicula + "  " + clasificacion +  " " + costoFinal +  " " + numBoletos + " " + asientos + " "+ sala;
 		return s;
 	}
 
@@ -90,6 +91,14 @@ public class Boleto {
 
 	public void setHorario(String horario) {
 		this.horario = horario;
+	}
+
+	public String getSala() {
+		return sala;
+	}
+
+	public void setSala(String sala) {
+		this.sala = sala;
 	}
 	
 	

@@ -35,7 +35,40 @@
           </li>
           <li class="list-group-item">
           	Día: <jsp:getProperty name="boleto" property="fecha"/>.
-          </li>    
+          </li>
+          <li class="list-group-item">
+          	Cine: <jsp:getProperty name="boleto" property="cine"/>.
+          </li>
+          <li class="list-group-item">
+          	Sala: <jsp:getProperty name="boleto" property="sala"/>.
+          </li>
+          <li class="list-group-item">
+          	Boletos: <jsp:getProperty name="boleto" property="numBoletos"/>.
+          </li>
+          <li class="list-group-item">
+          	Asientos:  ${asientos}.
+          </li>
+          <li class="list-group-item">
+          	Costo final: <jsp:getProperty name="boleto" property="costoFinal"/>.
+          </li>
+          </ul>        
+          
+          Datos para Comprobante Fiscal:
+          <ul class="list-group-item">
+          <li class="list-group-item">
+          	Cine: <jsp:getProperty name="boleto" property="cine"/>.
+          </li>
+          <li class="list-group-item">
+             Numero de orden: ${numOrden}.
+          </li>
+           <li class="list-group-item">
+             Fecha Compra: <jsp:getProperty name="boleto" property="fecha"/> .
+          </li>
+          </ul>        
+          
+          
+          Terminos y condiciones.
+          
           
             
              

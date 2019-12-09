@@ -117,4 +117,3 @@ insert into pelicula (titulo, clasificacion) values ('Aquaman','PG-13');
 insert into pelicula (titulo, clasificacion) values ('Shazam','PG-13');
 insert into pelicula (titulo, clasificacion) values ('Joker','B15');
 insert into pelicula (titulo, clasificacion) values ('Linterna Verde','A');
-insert into sala (num_asientos, id_pelicula) values (,1);
