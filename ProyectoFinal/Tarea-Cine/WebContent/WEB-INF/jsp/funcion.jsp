@@ -97,6 +97,7 @@
 						<h1>Clasificación: </h1>
 						<form:input type="text" path="clasificacion" class="clasificacion" id = "clasificacion" readonly="true"/>
 					</div>
+					
 					<div class="enter-div">
 						<input type="submit" id="continue-button" value="Continue" >
 					</div>
@@ -138,6 +139,14 @@
 		            console.log(title)
 		            console.log(clasificacion);
 		            $(".clasificacion").val(clasificacion);
+		          
+
+
+		            console.log(title)
+		            console.log(clasificacion);
+		            
+		        
+		            
 		            
 		        }
 		    });
@@ -174,9 +183,14 @@
 			            console.log(datos);
 			            var title = datos[0]
 			            var clasificacion =  datos [1]
+			          
+
+
 			            console.log(title)
 			            console.log(clasificacion);
+			          
 			            $(".clasificacion").val(clasificacion);
+			            
 			        }
 			    });
 				

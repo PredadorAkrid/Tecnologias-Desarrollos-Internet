@@ -69,20 +69,31 @@ public class Control {
 		System.out.println(list.size());
 	    String titulo = list.get(0).get(0);
 	    String clasificacion =list.get(0).get(1);
+	    String horario =list.get(0).get(2);
+	    String sala =list.get(0).get(3);
+	    
+	    
+	    
 	    model.addAttribute("nombre", titulo);
+	    model.addAttribute("clasificacion", clasificacion);
+	  
+
 		return titulo + "," + clasificacion;
 	}
 	
 	@RequestMapping( value = "/save_pelicula", method = RequestMethod.POST )
 	public ModelAndView SavePelicula(@ModelAttribute( "function" ) Funcion func) {
-		System.out.println(func.toString());
 		Boleto boleto = new Boleto();
 		boleto.setNombrePelicula(func.getNombrePelicula());
 		boleto.setFecha(func.getFecha());
 		boleto.setCine(func.getCine());
 		boleto.setClasificacion(func.getClasificacion());
+		List<List<String>> list = basePrueba.getInfoPelicula(func.getNombrePelicula());
+		boleto.setHorario(list.get(0).get(2));
+		boleto.setSala(list.get(0).get(3));
+		
+		this.bol = boleto;
 		System.out.println(boleto.toString());
-		bol = boleto;
 		return new ModelAndView("numboletos", "numboletos", boleto);
 	}
 	
@@ -90,17 +101,16 @@ public class Control {
 	public ModelAndView SavePrecio(HttpServletRequest req,HttpServletResponse response, @ModelAttribute( "numboletos" ) Boleto bolAux) {
 		this.precio = Integer.parseInt(req.getParameter("precioFinal"));
 		this.numBoletos = Integer.parseInt(req.getParameter("numBoletos"));
-
 		bolAux.setCine(bol.getCine());
 		bolAux.setClasificacion(bol.getClasificacion());
 		bolAux.setFecha(bol.getFecha());
 		bolAux.setNombrePelicula(bol.getNombrePelicula());
 		bolAux.setCostoFinal(precio);
 		bolAux.setNumBoletos(this.numBoletos);
-		System.out.println(bolAux.toString());
+		bolAux.setHorario(bol.getHorario());
+		bolAux.setSala(bol.getSala());
 		bol = bolAux;
-		
-		
+		System.out.println(bol.toString());
 		return new ModelAndView("boleto", "boleto", bolAux);
 	}
 	

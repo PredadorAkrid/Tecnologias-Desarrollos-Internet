@@ -51,6 +51,7 @@ public class Funcion {
 		String s = fecha + " " + cine + " " + nombrePelicula + " " + clasificacion;
 		return s;
 	}
+
 	
 	
 }

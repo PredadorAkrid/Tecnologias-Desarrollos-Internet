@@ -37,6 +37,9 @@
           	Día: <jsp:getProperty name="boleto" property="fecha"/>.
           </li>
           <li class="list-group-item">
+          	Día: <jsp:getProperty name="boleto" property="horario"/>.
+          </li>
+          <li class="list-group-item">
           	Cine: <jsp:getProperty name="boleto" property="cine"/>.
           </li>
           <li class="list-group-item">

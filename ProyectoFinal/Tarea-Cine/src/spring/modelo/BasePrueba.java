@@ -100,15 +100,19 @@ public class BasePrueba {
 		List<String> aux = new ArrayList<String>();
 		
 		try{
-		String query = "SELECT *  FROM pelicula WHERE titulo=?";
+		String query = "SELECT *  FROM sala_pelicula a join pelicula b on a.id_pelicula = b.id_pelicula  WHERE titulo=? LIMIT 1";
 		PreparedStatement ps = connect.prepareStatement(query);
 		ps.setString(1,busqueda);
 		ResultSet rs = ps.executeQuery();
 		while ( rs.next() ){
 			  String tit = rs.getString("titulo");
 			  String clas = rs.getString("clasificacion");
+			  String horario = rs.getString("horario");
+			  String sala = rs.getString("id_sala");
 			  aux.add(tit);
 			  aux.add(clas);
+			  aux.add(horario);
+			  aux.add(sala);
 			  res.add(aux);
 		      
 		}
@@ -120,5 +124,6 @@ public class BasePrueba {
 		}
 		return res;
 	}
+	
 
 }
