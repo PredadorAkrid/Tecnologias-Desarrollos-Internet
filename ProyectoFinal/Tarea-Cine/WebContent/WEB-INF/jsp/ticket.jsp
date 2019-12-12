@@ -15,9 +15,9 @@
 		src="<c:url value='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' /> " ></script>
 </head>
 <body>
-	<center>
+	<div id="content">
 		<h1>Detalles de pago</h1>
-		<div id="content">
+		<div>
 			<div>
 				Total a pagar:
 			</div>
@@ -27,28 +27,28 @@
 			<form:form method="POST" commandName="ticket" action="save_pago.html" acceptCharset="UTF-8">
 				<div  class="line">
 					<label for="nombre">Nombre en la tarjeta</label><br>
-					<form:input type="text" path="nombre" id="nombre" class="form-control input-sm"/>
+					<form:input type="text" path="nombre" id="nombre"  class="form-control input-sm"/>
 					<div class="has-error">
 						<form:errors path="nombre" class="help-inline"/>
 					</div>
 				</div>
 				<div class="line">
 					<label for="correo"> E-Mail</label><br>
-					<form:input type="text" path="correo" id="correo" class="form-control input-sm"/>
+					<form:input type="email" path="correo" id="correo"  class="form-control input-sm"/>
 					<div class="has-error">
 						<form:errors path="correo" class="help-inline"/>
 					</div>
 				</div>
 				<div class="line">
 					<label for="tarjeta">Número de tarjeta</label><br>
-					<form:input type="text" path="tarjeta" id="tarjeta" class="form-control input-sm"/>
+					<form:input type="text" path="tarjeta" maxlength="16" id="tarjeta"  class="form-control input-sm"/>
 					<div class="has-error">
 						<form:errors path="tarjeta" class="help-inline"/>
 					</div>
 				</div>
 				<div class="line">
 					<label for="codigo">Código de seguridad</label><br>
-					<form:input type="text" path="codigo" id="codigo" class="form-control input-sm"/>
+					<form:input type="text" path="codigo" id="codigo"  maxlength="3"  class="form-control input-sm"/>
 					<div class="has-error">
 						<form:errors path="codigo" class="help-inline"/>
 					</div>
@@ -103,7 +103,7 @@
 				</div>
 			</form:form>
 		</div>
-	</center>
+	</div>
 	<script type="text/javascript"> 
 		var total = 0; //esto guarda el total a pagar
 		

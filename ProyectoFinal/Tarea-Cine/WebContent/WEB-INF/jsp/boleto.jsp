@@ -16,9 +16,10 @@
 	<title>Boleto</title>
 </head>
 <body>
-	<center>
-		<h1>Escoge los asientos</h1>
+
 		<div id="content">
+		<h1>Escoge los asientos</h1>
+		<div>
 			<table>
 				<tr>
 					<td class="label">L</td>
@@ -235,8 +236,9 @@
 			<jsp:getProperty name="boleto" property="numBoletos"/>
 			
 		</div>
+		</div>
 		
-		</center>
+	
 		
 	<script type="text/javascript"> 
 		var n; //esto guarda el número de asientos

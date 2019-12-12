@@ -18,9 +18,8 @@
 </head>
 <body>
 	
-	<center>
-		<h1>Indique el número de boletos</h1>
 		<div id="content">
+		<h1>Indique el número de boletos</h1>
 			<table>
 				<tr>
 					<td class="label">Adulto $73 c/u</td>
@@ -49,7 +48,6 @@
 				<button type="submit" class="boton" onclick="confirmarPedido()">Continuar</button>
 			</div>
 		</div>
-		</center>
 	<script>
 	/**
 	 * 

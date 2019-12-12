@@ -9,6 +9,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>Cine - Tarea04</title>
 	<link href="<c:url value='/static/css/styles.css' />" rel="stylesheet"></link>
+	<link href="<c:url value='/static/css/funcion.css' />" rel="stylesheet"></link>
 	<link type="text/css" href="<c:url value='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css' /> " rel="stylesheet" /></link>  
     
 	<script type="text/javascript" 
@@ -18,95 +19,93 @@
 </head>
   
 <body>
-	
-  <div class="grid-container">
-		
-    	
+  <div id="content">
          
-		<div class="title-container">
-			<div class="title">AQUI VA UN TITULO FEO</div>
-		</div>
-		
-	
-		<div class="carrusel">
+			<div class="title-container">
+				<div class="title">AQUI VA UN TITULO FEO</div>
+			</div>
 			
-			<div class="Peliculas">
-				<img id="movie1" src="<c:url value= "/static/img/img1.jpg" /> " alt="Superman">
-				<div class="text" id="nombrePeliculaLabel"></div>
-			</div>
-
-			<div class="Peliculas">
-				<img id="movie2" src="<c:url value= "/static/img/img2.jpg" /> " alt="Batman V Superman">
-				<div class="text" id="nombrePeliculaLabel"></div>
-			</div>
-
-			<div class="Peliculas">
-				<img id="movie3" src="<c:url value= "/static/img/img3.jpg" /> " alt="Aquaman">
-				<div class="text" id="nombrePeliculaLabel"></div>
-			</div>
-
-			<div class="Peliculas">
-				<img id="movie4" src="<c:url value= "/static/img/img4.jpg" /> " alt="Shazam">
-				<div class="text" id="nombrePeliculaLabel"></div>
-			</div>
-
-			<div class="Peliculas">
-				<img id="movie5" src="<c:url value= "/static/img/img5.jpg" /> " alt="Joker">
-				<div class="text" id="nombrePeliculaLabel"></div>
-			</div>
-
-			<div class="Peliculas">
-				<img id="movie6" src="<c:url value= "/static/img/img6.jpg" /> " alt="Green Lantern">
-				<div class="text" id="nombrePeliculaLabel"></div>
-			</div>
-
-			<a class="prev" onclick="siguientePelicula(-1)">&#10094;</a>
-  			<a class="next" onclick="siguientePelicula(1)">&#10095;</a>
-
-		</div>
 		
-		
-		<br>
-
-		
-		
-		<div class="datos-pelicula">
-		
-			<div class="campos">
-			
-				<form:form method="post" action="save_pelicula.html" modelAttribute="funcion">
+			<div class="carrusel">
 				
-					<div class="nombre-div">
-						<h1>Nombre: </h1>
-						<form:input type="text" path="nombrePelicula" class="nombrePelicula" id = "nombrePelicula" readonly="true"/>
-					</div>
-		
-					<div class="fecha-div">
-						<h1>Fecha función: </h1>
-						<form:input type="text" path="fecha" id = "date"/>
-						
-					</div>
-		
-					<div class="cine-div">
-						<h1>Busca tu cine: </h1>
-						<form:input type="text" path="cine" id = "cines"/>
-					</div>
-					
-					
-					<div class="clasificacion-div">
-						<h1>Clasificación: </h1>
-						<form:input type="text" path="clasificacion" class="clasificacion" id = "clasificacion" readonly="true"/>
-					</div>
-					
-					<div class="enter-div">
-						<input type="submit" id="continue-button" value="Continue" >
-					</div>
-					
-				</form:form>
+				<div class="Peliculas">
+					<img id="movie1" src="<c:url value= "/static/img/img1.jpg" /> " alt="Superman">
+					<div class="text" id="nombrePeliculaLabel"></div>
+				</div>
+	
+				<div class="Peliculas">
+					<img id="movie2" src="<c:url value= "/static/img/img2.jpg" /> " alt="Batman V Superman">
+					<div class="text" id="nombrePeliculaLabel"></div>
+				</div>
+	
+				<div class="Peliculas">
+					<img id="movie3" src="<c:url value= "/static/img/img3.jpg" /> " alt="Aquaman">
+					<div class="text" id="nombrePeliculaLabel"></div>
+				</div>
+	
+				<div class="Peliculas">
+					<img id="movie4" src="<c:url value= "/static/img/img4.jpg" /> " alt="Shazam">
+					<div class="text" id="nombrePeliculaLabel"></div>
+				</div>
+	
+				<div class="Peliculas">
+					<img id="movie5" src="<c:url value= "/static/img/img5.jpg" /> " alt="Joker">
+					<div class="text" id="nombrePeliculaLabel"></div>
+				</div>
+	
+				<div class="Peliculas">
+					<img id="movie6" src="<c:url value= "/static/img/img6.jpg" /> " alt="Green Lantern">
+					<div class="text" id="nombrePeliculaLabel"></div>
+				</div>
+	
+				<a class="prev" onclick="siguientePelicula(-1)">&#10094;</a>
+	  			<a class="next" onclick="siguientePelicula(1)">&#10095;</a>
 	
 			</div>
 			
-
+			
+			<br>
+	
+			
+			
+			<div class="datos-pelicula">
+			
+				<div class="campos">
+				
+					<form:form method="post" action="save_pelicula.html" modelAttribute="funcion">
+					
+						<div class="nombre-div campo">
+							<h2>Nombre: </h2>
+							<form:input type="text" path="nombrePelicula" class="nombrePelicula" id = "nombrePelicula" readonly="true"/>
+						</div>
+			
+						<div class="fecha-div campo">
+							<h2>Fecha función: </h2>
+							<form:input type="text" path="fecha" id = "date"/>
+							
+						</div>
+			
+						<div class="cine-div">
+							<h2>Busca tu cine: </h2>
+							<form:input type="text" path="cine" id = "cines"/>
+						</div>
+						
+						
+						<div class="clasificacion-div">
+							<h2>Clasificación: </h2>
+							<form:input type="text" path="clasificacion" class="clasificacion" id = "clasificacion" readonly="true"/>
+						</div>
+						
+						<div class="enter-div">
+							<button type="submit" id="continue-button" value="Continue">Continuar</button>
+						</div>
+						
+					</form:form>
+		
+				</div>
+				
+	
+		</div>
 	</div>
 	
 	

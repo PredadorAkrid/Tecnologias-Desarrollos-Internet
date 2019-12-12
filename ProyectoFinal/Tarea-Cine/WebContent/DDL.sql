@@ -28,7 +28,5 @@ create table sala_pelicula(
     FOREIGN KEY (id_pelicula) REFERENCES pelicula(id_pelicula),
     PRIMARY KEY(id_pelicula, id_sala, horario)
 
-
-    
 );
 
