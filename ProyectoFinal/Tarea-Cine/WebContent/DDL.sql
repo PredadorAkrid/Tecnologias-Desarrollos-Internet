@@ -14,7 +14,7 @@ create table sala(
 create table pelicula(
 	id_pelicula int auto_increment Primary Key,
     titulo varchar(100) not null,
-    clasificacion varchar(3) not null
+    clasificacion varchar(10) not null
     
 );
 

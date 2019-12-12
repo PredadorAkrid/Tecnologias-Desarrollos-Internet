@@ -80,7 +80,7 @@
 			total += getPrecio(clase);
 			setTotal();
 			n++;
-			boletos += 1;
+			boletos = boletos + 1;
 		}
 	
 		function restar() {
@@ -88,15 +88,20 @@
 			var res = document.getElementById(clase);
 			if(res.textContent > 0)
 				res.textContent = res.textContent - 1;
-			total -= getPrecio(clase);
+			//total = total -  getPrecio(clase);
 			n--;
-			setTotal();
-			boletos -=1;
-			if(boletos < 0){
+
+			if(boletos <= 0){
 				boletos = 0;
+				total = 0;
+				setTotal();
+
 			}
 			else{
-				boletos -= 1				
+				boletos = boletos -  1;	
+				total = total - getPrecio(clase);
+				setTotal();
+
 			}
 		}
 	
@@ -115,6 +120,8 @@
 				window.alert("Debes seleccionar al menos un boleto")
 			}
 			else{
+				window.alert(boletos)
+				window.alert(total)
 				$.ajax({
 		        type : "POST",
 		        url : "${pageContext.request.contextPath}/save_precio.html",

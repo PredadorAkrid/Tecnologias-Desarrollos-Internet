@@ -307,6 +307,7 @@
 					console.log(a)
 					a.forEach(myFunc)
 					console.log(aux);
+		            
 					$.ajax({
 				        type : "POST",
 				        url : "${pageContext.request.contextPath}/save_asientos.html",
