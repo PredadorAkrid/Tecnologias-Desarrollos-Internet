@@ -29,50 +29,50 @@
 					<td class="asiento ocupado" id="L2"><img src="<c:url value= '/static/img/ocupado.png'/>" ></td>
 					<td class="asiento ocupado" id="L3"><img src="<c:url value= '/static/img/ocupado.png'/>" ></td>
 					<td class="asiento ocupado" id="L4"><img src="<c:url value= '/static/img/ocupado.png'/>" ></td>
-					<td class="asiento" id="L5"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="L6"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="L7"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="L8"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="L9"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="L10"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="L11"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="L12"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
+					<td class="asiento" id="L5"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="L6"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="L7"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="L8"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="L9"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="L10"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="L11"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="L12"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
 					<td class="label">L</td>
 				</tr>
 				<tr>
 					<td class="label">K</td>
 					<td>&nbsp;</td>
 					<td>&nbsp;</td>
-					<td class="asiento" id="K1"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="K2"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="K3"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="K4"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="K5"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="K6"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="K7"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="K8"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="K9"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="K10"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="K11"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="K12"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
+					<td class="asiento" id="K1"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="K2"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="K3"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="K4"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="K5"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="K6"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="K7"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="K8"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="K9"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="K10"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="K11"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="K12"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
 					<td class="label">K</td>
 				</tr>
 				<tr>
 					<td class="label">J</td>
 					<td>&nbsp;</td>
 					<td>&nbsp;</td>
-					<td class="asiento" id="J1"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="J2"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="J3"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="J4"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="J5"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="J6"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="J7"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="J8"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="J9"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="J10"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="J11"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="J12"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
+					<td class="asiento" id="J1"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="J2"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="J3"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="J4"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="J5"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="J6"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="J7"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="J8"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="J9"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="J10"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="J11"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="J12"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
 					<td class="label">J</td>
 				</tr>
 				<tr>
@@ -80,89 +80,89 @@
 					<td>&nbsp;</td>
 					<td>&nbsp;</td>
 					<td>&nbsp;</td>
-					<td class="asiento" id="I1"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="I2"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="I3"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="I4"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="I5"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="I6"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="I7"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="I8"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="I9"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="I10"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="I11"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
+					<td class="asiento" id="I1"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="I2"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="I3"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="I4"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="I5"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="I6"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="I7"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="I8"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="I9"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="I10"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="I11"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
 					<td class="label">I</td>
 				</tr>
 				<tr>
 					<td class="label">H</td>
-					<td class="asiento" id="H1"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H2"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H3"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H4"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H5"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H6"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H7"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H8"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H9"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H10"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H11"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H12"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H13"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="H14"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
+					<td class="asiento" id="H1"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H2"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H3"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H4"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H5"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H6"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H7"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H8"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H9"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H10"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H11"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H12"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H13"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="H14"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
 					<td class="label">H</td>
 				</tr>
 				<tr>
 					<td class="label">G</td>
-					<td class="asiento" id="G1"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G2"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G3"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G4"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G5"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G6"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G7"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G8"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G9"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G10"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G11"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G12"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G13"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="G14"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
+					<td class="asiento" id="G1"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G2"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G3"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G4"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G5"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G6"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G7"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G8"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G9"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G10"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G11"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G12"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G13"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="G14"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
 					<td class="label">G</td>
 				</tr>
 				<tr>
 					<td class="label">F</td>
-					<td class="asiento" id="F1"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F2"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F3"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F4"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F5"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F6"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F7"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F8"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F9"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F10"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F11"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F12"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F13"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="F14"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
+					<td class="asiento" id="F1"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F2"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F3"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F4"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F5"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F6"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F7"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F8"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F9"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F10"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F11"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F12"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F13"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="F14"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
 					<td class="label">F</td>
 				</tr>
 				<tr>
 					<td class="label">E</td>
-					<td class="asiento" id="E1"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E2"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E3"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E4"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E5"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E6"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E7"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E8"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E9"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E10"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E11"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E12"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E13"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="E14"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
+					<td class="asiento" id="E1"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E2"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E3"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E4"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E5"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E6"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E7"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E8"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E9"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E10"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E11"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E12"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E13"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="E14"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
 					<td class="label">E</td>
 				</tr>
 				<tr>
@@ -170,56 +170,56 @@
 				</tr>
 				<tr>
 					<td class="label">C</td>
-					<td class="asiento" id="C1"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="C2"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="C3"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="C4"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="C5"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="C6"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
+					<td class="asiento" id="C1"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="C2"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="C3"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="C4"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="C5"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="C6"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
 					<td>&nbsp;</td>
 					<td>&nbsp;</td>
-					<td class="asiento" id="C7"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="C8"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="C9"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="C10"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="C11"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="C12"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
+					<td class="asiento" id="C7"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="C8"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="C9"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="C10"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="C11"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="C12"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
 					<td class="label">C</td>
 				</tr>
 				<tr>
 					<td class="label">B</td>
-					<td class="asiento" id="B1"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B2"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B3"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B4"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B5"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B6"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B7"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B8"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B9"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B10"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B11"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B12"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B13"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="B14"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
+					<td class="asiento" id="B1"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B2"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B3"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B4"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B5"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B6"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B7"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B8"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B9"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B10"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B11"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B12"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B13"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="B14"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
 					<td class="label">B</td>
 				</tr>
 				<tr>
 					<td class="label">A</td>
-					<td class="asiento" id="A1"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A2"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A3"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A4"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A5"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A6"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A7"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A8"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A9"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A10"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A11"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A12"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A13"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
-					<td class="asiento" id="A14"><img src="<c:url value= '/static/img/vacío.png'/>" ></td>
+					<td class="asiento" id="A1"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A2"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A3"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A4"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A5"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A6"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A7"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A8"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A9"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A10"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A11"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A12"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A13"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
+					<td class="asiento" id="A14"><img src="<c:url value= '/static/img/vacÃ­o.png'/>" ></td>
 					<td class="label">A</td>
 				</tr>
 				<tr id="pantalla">
@@ -241,7 +241,7 @@
 	
 		
 	<script type="text/javascript"> 
-		var n; //esto guarda el número de asientos
+		var n; //esto guarda el nÃºmero de asientos
 		var a; 
 		var asientosUsuario;
 	
@@ -277,14 +277,14 @@
 
 				}
 				else{
-					window.alert("Ya seleccionó todos sus asientos disponibles");	
+					window.alert("Ya seleccionÃ³ todos sus asientos disponibles");	
 				}
 					
 				
 			}
 
 			function deselec() {
-				this.childNodes[0].src = "static/img/vacío.png";
+				this.childNodes[0].src = "static/img/vacÃ­o.png";
 				this.classList.remove("selec");
 				this.removeEventListener("click", deselec);
 				this.addEventListener("click", selec);
@@ -302,7 +302,7 @@
 					window.alert("Porfavor, selecciona los asientos.");
 				}
 				else{
-		            window.alert("Si está entrando")
+		            window.alert("Si estÃ¡ entrando")
 					console.log("---------------------")
 		            console.log(asientosUsuario)
 					console.log(n)
@@ -319,7 +319,7 @@
 
 				        },
 				        success: function(data){
-				            window.alert("éxito en la seleccion de asientos");
+				            //window.alert("Ã©xito en la seleccion de asientos");
 				            window.location.href="${pageContext.request.contextPath}/ticket.html";
 				        	
 				        }
