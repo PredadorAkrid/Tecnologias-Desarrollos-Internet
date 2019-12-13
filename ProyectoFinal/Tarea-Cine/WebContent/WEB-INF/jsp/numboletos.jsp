@@ -19,7 +19,7 @@
 <body>
 	
 		<div id="content">
-		<h1>Indique el número de boletos</h1>
+		<h1>Indique el nÃºmero de boletos</h1>
 			<table>
 				<tr>
 					<td class="label">Adulto $73 c/u</td>
@@ -28,7 +28,7 @@
 					<td class="adulto mas"><img src="<c:url value= '/static/img/mas.png'/>" ></td>
 				</tr>
 				<tr>
-					<td class="label">Mayor a 60 años $64 c/u</td>
+					<td class="label">Mayor a 60 aÃ±os $64 c/u</td>
 					<td class="mayor menos"><img src="<c:url value= '/static/img/menos.png'/>" ></td>
 					<td id="mayor">0</td>
 					<td class="mayor mas"><img src="<c:url value= '/static/img/mas.png'/>" ></td>
@@ -52,7 +52,7 @@
 	/**
 	 * 
 	 **/
-		var n = 0; //esto guarda el número de asientos
+		var n = 0; //esto guarda el nÃºmero de asientos
 		var total = 0; //esto guarda el total a pagar
 	
 	
@@ -61,7 +61,7 @@
 		const tot = document.getElementById("total");
 		var boletos = 0;
 		var adultos = 0;
-		var niños = 0;
+		var niÃ±os = 0;
 		var adultosDesc = 0;
 		menos.forEach((element) => {
 		    element.addEventListener("click", restar)
@@ -129,7 +129,7 @@
 		            "numBoletos": boletos,
 		        },
 		        success: function(data){
-		            window.alert("Si está entrando")
+		            //window.alert("Si estÃ¡ entrando")
 		        	window.location.href="${pageContext.request.contextPath}/boletos_asiento.html";
 		        }
 		   	 });
